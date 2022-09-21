@@ -64,7 +64,6 @@
 				A4B2C94C28D4C45400D04BAC /* Controllers */,
 				A4B2C94D28D4C46B00D04BAC /* Views */,
 				A493594428CDF47E005C09A3 /* Assets.xcassets */,
-				A493594628CDF47E005C09A3 /* LaunchScreen.storyboard */,
 				A493594928CDF47E005C09A3 /* Info.plist */,
 			);
 			path = "To Do";
@@ -89,6 +88,7 @@
 		A4B2C94D28D4C46B00D04BAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A493594628CDF47E005C09A3 /* LaunchScreen.storyboard */,
 				A493594128CDF47D005C09A3 /* Main.storyboard */,
 			);
 			path = Views;
