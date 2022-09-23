@@ -14,6 +14,7 @@
 		A493594528CDF47E005C09A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A493594428CDF47E005C09A3 /* Assets.xcassets */; };
 		A493594828CDF47E005C09A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A493594628CDF47E005C09A3 /* LaunchScreen.storyboard */; };
 		A4B9E18928D8984B00FBA2D3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4B9E18728D8984B00FBA2D3 /* DataModel.xcdatamodeld */; };
+		A4EDA40328DB807B00E0F21B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDA40228DB807B00E0F21B /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A493594728CDF47E005C09A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A493594928CDF47E005C09A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B9E18828D8984B00FBA2D3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A4EDA40228DB807B00E0F21B /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		A4B2C94C28D4C45400D04BAC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4EDA40228DB807B00E0F21B /* CategoryViewController.swift */,
 				A493593F28CDF47D005C09A3 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -88,8 +91,8 @@
 		A4B2C94D28D4C46B00D04BAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A493594628CDF47E005C09A3 /* LaunchScreen.storyboard */,
 				A493594128CDF47D005C09A3 /* Main.storyboard */,
+				A493594628CDF47E005C09A3 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EDA40328DB807B00E0F21B /* CategoryViewController.swift in Sources */,
 				A4B9E18928D8984B00FBA2D3 /* DataModel.xcdatamodeld in Sources */,
 				A493594028CDF47D005C09A3 /* TodoListViewController.swift in Sources */,
 				A493593C28CDF47D005C09A3 /* AppDelegate.swift in Sources */,
